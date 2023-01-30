@@ -1,0 +1,33 @@
+abstract class siva{
+    void application(){
+      System.out.println("Sivakumar is acting");    
+        }
+    abstract void reason();    
+}    
+class surya extends siva{        
+    void application(){
+        System.out.println("suriya is acting");
+    }    
+    
+    void reason(){
+        System.out.println("profession");
+    }
+}
+public class MyClass {
+    public static void main(String args[]) {
+      
+     
+      surya s1=new surya();
+      s1.application();
+      s1.reason();
+     
+       
+    }
+
+}
+
+
+output
+
+  suriya is acting
+  profession
